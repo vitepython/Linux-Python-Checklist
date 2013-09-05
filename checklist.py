@@ -19,6 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 prompt = raw_input("PRESS ENTER ANY KEY TO CONTINUE or CNTR^C TO QUIT")
 
+print "Please type yes or no"
+
 def answer():
     if  p is not ("yes", "no"):
         print "Please read instructions again"
